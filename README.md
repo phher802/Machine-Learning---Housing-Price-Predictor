@@ -26,7 +26,7 @@ The dataset is based on California housing data and includes features such as:
 
 The target variable is:
 
-- <mark>median\*house_value</mark> — the median home price for a given area
+- <mark>median_house_value</mark> — the median home price for a given area
 
 _Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline._
 
@@ -140,7 +140,9 @@ pip install -r requirements.txt
 python -m notebook
 ```
 
-## Open <mark>housing_price_model.ipyb</mark> and run all cells
+Open <mark>housing_price_model.ipyb</mark> and run all cells
+
+---
 
 Key Takeway
 This project demonstrates how machine learning models learn patterns from histornical data, evaluate performance on unseen samples, and support real-world decision-making through reproducible pipelines.
