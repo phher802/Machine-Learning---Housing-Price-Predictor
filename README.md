@@ -144,5 +144,6 @@ Open <mark>housing_price_model.ipyb</mark> and run all cells
 
 ---
 
-Key Takeway
+## Key Takeway
+
 This project demonstrates how machine learning models learn patterns from histornical data, evaluate performance on unseen samples, and support real-world decision-making through reproducible pipelines.
