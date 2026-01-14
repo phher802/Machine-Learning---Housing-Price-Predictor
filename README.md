@@ -26,12 +26,12 @@ The dataset is based on California housing data and includes features such as:
 
 The target variable is:
 
-- ==median_house_value== — the median home price for a given area
-  [^1]: Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline.
+- <mark>median*house_value</mark> — the median home price for a given area
+  \_Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline.*
 
-==
+--
 
-### Project Structure
+Project Structure
 
 ml-housing-price-predictor/
 ├── data/
@@ -53,7 +53,7 @@ The dataset is loaded from a CSV file using pandas.
 - Rows with missing values are handled via preprocessing
 - Categorical features are excluded for this baseline model to keep the feature space numeric
 
-[^1]: In production systems, categorical encoding and imputation pipelines would typically be used.
+_In production systems, categorical encoding and imputation pipelines would typically be used._
 
 ### 3. Feature and Target Selection
 
@@ -86,7 +86,7 @@ Model performance is evaluated using:
 - High-value homes are often underestimated due to dataset constraints and linear assumptions.
 - A visible price cap in the dataset creates a vertical clustering of actual values.
 
-## This model serves as a baseline, establishing a reference point for more advanced models such as tree-based or ensemble methods.
+This model serves as a baseline, establishing a reference point for more advanced models such as tree-based or ensemble methods.
 
 ## Limitations
 
@@ -105,7 +105,7 @@ In practice, models like this are used for:
 - Decision support for analysts
 - Monitoring market trends over time
 
-## Rather than predicting exact prices, the model provides probabilistic guidance and relative comparisons.
+Rather than predicting exact prices, the model provides probabilistic guidance and relative comparisons.
 
 ## Future Improvements
 
@@ -136,7 +136,7 @@ pip install -r requirements.txt
 python -m notebook
 ```
 
-## Open ==housing_price_model.ipyb== and run all cells
+## Open <mark>housing_price_model.ipyb</mark> and run all cells
 
 Key Takeway
 This project demonstrates how machine learning models learn patterns from histornical data, evaluate performance on unseen samples, and support real-world decision-making through reproducible pipelines.
