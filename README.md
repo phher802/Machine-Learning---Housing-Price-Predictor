@@ -26,8 +26,9 @@ The dataset is based on California housing data and includes features such as:
 
 The target variable is:
 
-- <mark>median*house_value</mark> — the median home price for a given area
-  \_Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline.*
+- <mark>median\*house_value</mark> — the median home price for a given area
+
+_Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline._
 
 ---
 
