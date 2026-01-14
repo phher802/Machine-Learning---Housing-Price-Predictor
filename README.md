@@ -29,10 +29,11 @@ The target variable is:
 - <mark>median*house_value</mark> — the median home price for a given area
   \_Note: The dataset includes missing values and categorical features, which are handled as part of the preprocessing pipeline.*
 
---
+---
 
 Project Structure
 
+```
 ml-housing-price-predictor/
 ├── data/
 │ └── housing.csv
@@ -40,7 +41,9 @@ ml-housing-price-predictor/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-==
+```
+
+---
 
 ## Machine Learning Workflow
 
